@@ -1,0 +1,10 @@
+This is a little file for the purposes of illustration.
+1. This is a numbered line.
+This is not a numbered line.
+42. This one is also numbered.
+5. Testing
+
+That one was blank.
+
+16. So was that one.
+100. Only those with numbers will survive.
