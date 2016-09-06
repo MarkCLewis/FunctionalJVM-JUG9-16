@@ -22,4 +22,6 @@ object CollectionExamples extends App {
   
   val sortedByCount = Sorts.mergeSort(allNames.toList)(_.count < _.count)
   println(sortedByCount.takeRight(3))
+  
+  val nameCount = allNames.find(_.firstName == "Mark").map(_.count).getOrElse(-1)
 }
